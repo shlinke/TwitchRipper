@@ -38,7 +38,12 @@ All Dependencies must be installed and the path linked in the corresponding vari
 
 ## Why TwitchRipper?
 
-TwitchRipper takes all the pros from similar tools like StreamRecorder, TwitchDownloader, and TwitchLink. Only problem is you need alot of storage and a computer running 24/7 (if you have a NAS this is perfect for you). 1h of a 1080p60fps stream is about 2.5GB, this can add up quickly. Below you can see ~35 streams I've archived with this script, this adds up to ~385GB.
+TwitchRipper combines the best features of similar tools like StreamRecorder, TwitchDownloader, and TwitchLink.
+
+>⚠️ Note: This script uses **a lot** of storage and works best on a computer running 24/7. <br>
+>1 hour of a 1080p60fps stream ≈ 2.5GB.
+
+**Example of archived streams** (~35 streams ≈ 385GB):
 <br>
 ![](https://assets.shlinke.tech/archive.png)
 <table>
