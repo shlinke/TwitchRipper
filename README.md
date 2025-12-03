@@ -1,4 +1,4 @@
-# TwitchRipper
+# TwitchRipper ![](https://hackatime-badge.hackclub.com/U092K509QG4/streamlink)
 
 TwitchRipper is a Python script that automatically downloads Twitch streams, archives VODs, and posts live notifications to Discord.
 
