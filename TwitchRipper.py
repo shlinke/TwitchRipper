@@ -5,12 +5,12 @@ import subprocess
 import datetime
 import time
 
-streamlink = "" # https://streamlink.github.io/install.html
-ffmpeg = "" # https://www.ffmpeg.org/download.html
-twitchdownloadercli = "" # https://github.com/lay295/TwitchDownloader
+streamlink = r"" # https://streamlink.github.io/install.html
+ffmpeg = r"" # https://www.ffmpeg.org/download.html
+twitchdownloadercli = r"" # https://github.com/lay295/TwitchDownloader
 
 channel = ""
-outputFolder = ""
+outputFolder = r""
 token = "" # Get Twitch AUTH token from https://twitchtokengenerator.com/ this will expire after some time so make sure to update it when needed
 webhookurl = "" # Discord webhook URL
 headers = {
