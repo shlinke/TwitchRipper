@@ -34,7 +34,7 @@ while True:
 {channel} went live on Twitch on {datetime.datetime.now().strftime("%m-%d-%Y")}
 Title: {title}
 VOD ID: {vodID}
-Start Time: {datetime.datetime.now().strftime("%H-%M-%S")}
+Start Time: {datetime.datetime.now().strftime("%H:%M:%S")}
 End Time: Waiting, Stream in progress...
             """}
         )
@@ -60,8 +60,8 @@ End Time: Waiting, Stream in progress...
 {channel} went live on Twitch on {datetime.datetime.now().strftime("%m-%d-%Y")}
 Title: {title}
 VOD ID: {vodID}
-Start Time: {datetime.datetime.now().strftime("%H-%M-%S")}
-End Time: {datetime.datetime.now().strftime("%m-%d-%y %I:%M:%S %p")}
+Start Time: {datetime.datetime.now().strftime("%H:%M:%S")}
+End Time: {datetime.datetime.now().strftime("%H:%M:%S %p")}
             """}
         )
 
