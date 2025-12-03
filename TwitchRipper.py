@@ -2,7 +2,7 @@ import requests
 import subprocess
 import datetime
 import time
-channel = "narpy"
+channel = ""
 Token = ""
 outputFolder = ""
 streamlink = ""
