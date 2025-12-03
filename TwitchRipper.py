@@ -28,7 +28,7 @@ while True:
         vodID = requests.get(f"https://api.twitch.tv/helix/videos?user_id={user_id}&type=archive&first=1", headers=headers).json()["data"][0]["id"]
         outputfile = os.path.join(outputFolder, f"[{dateLong}] {vodID} broadcast.ts")
 
-        discord_response = requests.post(
+        discordresponse = requests.post(
             f"{webhookurl}?wait=true",
             json={"content": f"""
 {channel} went live on Twitch on {datetime.datetime.now().strftime("%m-%d-%Y")}
@@ -55,7 +55,7 @@ End Time: Waiting, Stream in progress...
         ])
         
         requests.patch(
-            f"{webhookurl}/messages/{discord_response.json()['id']}",
+            f"{webhookurl}/messages/{discordresponse.json()['id']}",
             json={"content": f"""
 {channel} went live on Twitch on {datetime.datetime.now().strftime("%m-%d-%Y")}
 Title: {title}
