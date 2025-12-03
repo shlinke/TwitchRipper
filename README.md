@@ -5,12 +5,12 @@ TwitchRipper is a Python script that automatically downloads Twitch streams, arc
 ---
 
 ## Features
-- Detects when a Twitch channel goes live
-- Downloads live streams using Streamlink
+- Automatically detects when a Twitch channel goes live
+- Downloads streams live using Streamlink
 - Downloads VODs and chat using TwitchDownloaderCLI
 - Merges broadcast and VOD audio with FFmpeg
 - Sends notifications and updates to a Discord webhook
-- Runs post-processing in a background thread
+- Downloads VODs before they can be muted or deleted.
 
 ---
 
