@@ -33,7 +33,9 @@ All Dependencies must be installed and the path linked in the corresponding vari
    - [FFmpeg](https://ffmpeg.org/download.html)
    - [TwitchDownloaderCLI](https://github.com/lay295/TwitchDownloader)
 3. Edit the script variables to configure the channel, Twitch token, output folder, etc.
-4
+![](https://assets.shlinke.tech/code.png)
+4. To run the script type "python TwitchRipper.py" in a terminal window.
+![](https://assets.shlinke.tech/terminal.png)
 ---
 
 ## Why TwitchRipper?

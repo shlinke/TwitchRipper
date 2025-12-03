@@ -10,7 +10,7 @@ ffmpeg = r"" # https://www.ffmpeg.org/download.html
 twitchdownloadercli = r"" # https://github.com/lay295/TwitchDownloader
 
 channel = ""
-outputFolder = r""
+outputFolder = r"" # Set this to where you want chat JSONs, VODs, Broadcasts, and MKVs to be saved.
 token = "" # Get Twitch AUTH token from https://twitchtokengenerator.com/ this will expire after some time so make sure to update it when needed
 webhookurl = "" # Discord webhook URL
 headers = {
