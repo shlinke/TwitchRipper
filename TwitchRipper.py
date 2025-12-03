@@ -10,12 +10,12 @@ ffmpeg = "" # https://www.ffmpeg.org/download.html
 twitchdownloadercli = "" # https://github.com/lay295/TwitchDownloader
 
 channel = ""
-token = ""
 outputFolder = ""
-webhookurl = ""
+token = "" # Get Twitch AUTH token from https://twitchtokengenerator.com/ this will expire after some time so make sure to update it when needed
+webhookurl = "" # Discord webhook URL
 headers = {
     "Authorization": f"Bearer {token}",
-    "Client-Id": ""
+    "Client-Id": "gp762nuuoqcoxypju8c569th9wz7q5" # Public Client ID from https://twitchtokengenerator.com/
 }
 user_id = requests.get(f"https://api.twitch.tv/helix/users?login={channel}", headers=headers).json()["data"][0]["id"]
 
